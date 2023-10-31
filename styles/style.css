@@ -1,0 +1,187 @@
+.wraper {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background: url(../image/fon.png);
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.chest {
+    display: flex;
+}
+
+.panel {
+    display: flex;
+    background-color: black;
+    margin-top: 15px;
+    justify-content: end;
+}
+
+.auth {
+    margin-right: 20px;
+}
+
+.welcome {
+    background-color: black;
+}
+
+.about_text {
+    position: absolute;
+    left: 275px;
+    right: 0;
+    bottom: 40%;
+    text-shadow: 2px 3px 4px #000000;
+    max-width: 800px;
+}
+
+.buttons {
+    max-width: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+}
+
+.about_button_one, .about_button_two {
+    margin-right: 40px;
+}
+
+.what_minecraft {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.wrapper_1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_1 {
+    padding-right: 45px;
+}
+
+.menu_info_1 {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.image_menu_info {
+    margin-right: 10px;
+}
+
+.menu_info_2_text {
+    max-width: 330px;
+}
+
+legend, label {
+    color: white;
+}
+
+.feedback_sec {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback {
+    margin-top: 20px;
+    border: 1px solid red;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+}
+
+.send_feedback {
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: darksalmon;
+    height: 35px;
+}
+
+.mobs {
+    font-size: 30px;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.mobs_images {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 50px;
+    color: white;
+    padding-top: 45%;
+    padding-bottom: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.wrapper_2 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.about_mobs {
+    max-width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border: 2px solid;
+    padding: 30px;
+}
+
+.about_mobs_text {
+    text-align: start;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.about_mobs_button {
+    color: white;
+    background: rgb(212,75,56);
+    width: 210px;
+    height: 70px;
+    border-radius: 12px;
+    border: 0;
+    margin-top: 100px;
+}
+
+.about_mobs_text_2 {
+    color: red;
+}
+
+.about_mobs_text_3 {
+    margin-bottom: 50px;
+}

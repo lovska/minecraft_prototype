@@ -1,0 +1,85 @@
+.div_1 {
+	font-weight: bold;
+	font-size: 25px;
+	position: fixed;
+	justify-content: center;
+	display: flex;
+	top: 310px;
+	left: 0;
+	right: 0;
+	animation: op 2s linear 0.5s 1 normal forwards;
+}
+
+.PB {
+	background-color: skyblue;
+	position: fixed;
+	top: 350px;
+	left: 400px;
+	right: 400px;
+	border: 0;
+	border-radius: 550px;
+	animation: progressbar 2s linear 0.5s 1 normal forwards;
+}
+
+@keyframes progressbar {
+	0% {
+		right: 900px;
+	}
+
+	20% {
+		right: 800px;
+	}
+
+	40% {
+		right: 700px;
+	}
+
+	60% {
+		right: 600px;
+	}
+
+	80% {
+		right: 500px;
+	}
+
+	95% {
+		left: 400px;
+		right: 400px;
+	}
+
+	100% {
+		opacity: 0%;
+	}
+}
+
+
+@keyframes op {
+	100% {
+		opacity: 0%;
+	}
+}
+
+
+@keyframes auth {
+	10% {
+		opacity: 0%;
+	}
+
+
+	100% {
+		opacity: 100%;
+	}
+}
+
+.auth {
+	opacity: 0%;
+	animation: auth 1s linear 2.1s 1 normal forwards;
+}
+
+.back {
+	margin-top: 500px;
+    width: 155px;
+    height: 55px;
+    border-radius: 255px;
+    border: 10px;
+}
